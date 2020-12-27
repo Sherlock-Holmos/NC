@@ -1,0 +1,1 @@
+cmd_drivers/input/sensors/bmi160/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/input/sensors/bmi160/built-in.o drivers/input/sensors/bmi160/bstclass.o drivers/input/sensors/bmi160/bmi160_driver.o drivers/input/sensors/bmi160/bmi160.o drivers/input/sensors/bmi160/bmi160_i2c.o ; scripts/mod/modpost drivers/input/sensors/bmi160/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/staging/rtl8723au/8723au.ko := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL -r  -T ../scripts/module-common.lds --strip-debug -T ../arch/arm64/kernel/module.lds --build-id --strip-debug -o drivers/staging/rtl8723au/8723au.ko drivers/staging/rtl8723au/8723au.o drivers/staging/rtl8723au/8723au.mod.o

@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/audio-ext-clock-up.o := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o sound/soc/codecs/audio-ext-clock-up.o sound/soc/codecs/audio-ext-clk-up.o ; scripts/mod/modpost sound/soc/codecs/audio-ext-clock-up.o

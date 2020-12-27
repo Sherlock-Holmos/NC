@@ -1,0 +1,1 @@
+cmd_drivers/input/fingerprint/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/input/fingerprint/built-in.o drivers/input/fingerprint/fpc1020_tee.o drivers/input/fingerprint/gf3258/built-in.o ; scripts/mod/modpost drivers/input/fingerprint/built-in.o

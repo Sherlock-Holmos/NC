@@ -1,0 +1,4 @@
+kernel/drivers/staging/rtl8712/8712u.ko
+kernel/drivers/staging/rtl8188eu/8188eu.ko
+kernel/drivers/staging/rtl8723au/8723au.ko
+kernel/drivers/staging/qcacld-3.0_Q/wlan.ko

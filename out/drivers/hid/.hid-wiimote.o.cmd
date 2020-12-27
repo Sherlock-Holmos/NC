@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-wiimote.o := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/hid/hid-wiimote.o drivers/hid/hid-wiimote-core.o drivers/hid/hid-wiimote-modules.o drivers/hid/hid-wiimote-debug.o ; scripts/mod/modpost drivers/hid/hid-wiimote.o

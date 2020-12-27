@@ -1,0 +1,1 @@
+cmd_drivers/staging/android/ion/msm/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/staging/android/ion/msm/built-in.o drivers/staging/android/ion/msm/msm_ion.o drivers/staging/android/ion/msm/compat_msm_ion.o ; scripts/mod/modpost drivers/staging/android/ion/msm/built-in.o

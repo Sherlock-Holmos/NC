@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/video/fbdev/built-in.o drivers/video/fbdev/core/built-in.o drivers/video/fbdev/amba-clcd.o drivers/video/fbdev/omap2/built-in.o drivers/video/fbdev/msm/built-in.o ; scripts/mod/modpost drivers/video/fbdev/built-in.o

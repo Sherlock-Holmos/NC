@@ -1,0 +1,3 @@
+kernel/drivers/input/touchscreen/nvt_touch_e7s/nt36xxx.ko
+kernel/drivers/input/touchscreen/nvt_touch_e7s/nt36xxx_fw_update.ko
+kernel/drivers/input/touchscreen/nvt_touch_e7s/nt36xxx_ext_proc.ko

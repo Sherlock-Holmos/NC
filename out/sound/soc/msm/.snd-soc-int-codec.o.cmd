@@ -1,0 +1,1 @@
+cmd_sound/soc/msm/snd-soc-int-codec.o := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o sound/soc/msm/snd-soc-int-codec.o sound/soc/msm/sdm660-internal.o ; scripts/mod/modpost sound/soc/msm/snd-soc-int-codec.o

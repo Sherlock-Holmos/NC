@@ -1,0 +1,1 @@
+cmd_drivers/soc/qcom/memshare/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/soc/qcom/memshare/built-in.o drivers/soc/qcom/memshare/heap_mem_ext_v01.o drivers/soc/qcom/memshare/msm_memshare.o ; scripts/mod/modpost drivers/soc/qcom/memshare/built-in.o

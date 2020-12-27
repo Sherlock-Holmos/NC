@@ -1,0 +1,9 @@
+kernel/block/deadline-iosched.ko
+kernel/block/cfq-iosched.ko
+kernel/block/anxiety-iosched.ko
+kernel/block/depression-iosched.ko
+kernel/block/tripndroid-iosched.ko
+kernel/block/fifo-iosched.ko
+kernel/block/zen-iosched.ko
+kernel/block/row-iosched.ko
+kernel/block/bfq-iosched.ko

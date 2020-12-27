@@ -1,0 +1,1 @@
+cmd_drivers/block/zram/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/block/zram/built-in.o drivers/block/zram/zram.o ; scripts/mod/modpost drivers/block/zram/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/input/fingerprint/gf3258/gf3258.o := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/input/fingerprint/gf3258/gf3258.o drivers/input/fingerprint/gf3258/gf_spi.o drivers/input/fingerprint/gf3258/platform.o drivers/input/fingerprint/gf3258/netlink.o ; scripts/mod/modpost drivers/input/fingerprint/gf3258/gf3258.o

@@ -1,0 +1,1 @@
+cmd_net/dns_resolver/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o net/dns_resolver/built-in.o net/dns_resolver/dns_resolver.o ; scripts/mod/modpost net/dns_resolver/built-in.o

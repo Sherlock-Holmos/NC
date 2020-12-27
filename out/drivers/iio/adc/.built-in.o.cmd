@@ -1,0 +1,1 @@
+cmd_drivers/iio/adc/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/iio/adc/built-in.o drivers/iio/adc/qcom-rradc.o drivers/iio/adc/qcom-tadc.o ; scripts/mod/modpost drivers/iio/adc/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/uvc/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/media/usb/uvc/built-in.o drivers/media/usb/uvc/uvcvideo.o ; scripts/mod/modpost drivers/media/usb/uvc/built-in.o

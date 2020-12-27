@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/b43/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/net/wireless/b43/built-in.o drivers/net/wireless/b43/b43.o ; scripts/mod/modpost drivers/net/wireless/b43/built-in.o

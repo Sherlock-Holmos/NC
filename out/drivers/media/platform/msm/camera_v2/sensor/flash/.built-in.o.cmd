@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/msm/camera_v2/sensor/flash/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/media/platform/msm/camera_v2/sensor/flash/built-in.o drivers/media/platform/msm/camera_v2/sensor/flash/msm_flash.o ; scripts/mod/modpost drivers/media/platform/msm/camera_v2/sensor/flash/built-in.o

@@ -1,0 +1,1 @@
+cmd_arch/arm64/kernel/vdso/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o arch/arm64/kernel/vdso/built-in.o arch/arm64/kernel/vdso/vdso.o ; scripts/mod/modpost arch/arm64/kernel/vdso/built-in.o

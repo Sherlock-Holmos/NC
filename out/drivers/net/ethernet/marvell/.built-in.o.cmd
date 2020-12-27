@@ -1,0 +1,1 @@
+cmd_drivers/net/ethernet/marvell/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/net/ethernet/marvell/built-in.o drivers/net/ethernet/marvell/sky2.o ; scripts/mod/modpost drivers/net/ethernet/marvell/built-in.o

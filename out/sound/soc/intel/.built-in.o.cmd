@@ -1,0 +1,1 @@
+cmd_sound/soc/intel/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o sound/soc/intel/built-in.o sound/soc/intel/boards/built-in.o ; scripts/mod/modpost sound/soc/intel/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/pnp/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/pnp/built-in.o drivers/pnp/pnp.o drivers/pnp/pnpacpi/built-in.o ; scripts/mod/modpost drivers/pnp/built-in.o

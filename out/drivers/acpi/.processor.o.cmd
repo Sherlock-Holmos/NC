@@ -1,0 +1,1 @@
+cmd_drivers/acpi/processor.o := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/acpi/processor.o drivers/acpi/processor_driver.o drivers/acpi/processor_perflib.o ; scripts/mod/modpost drivers/acpi/processor.o

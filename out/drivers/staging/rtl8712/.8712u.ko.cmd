@@ -1,0 +1,1 @@
+cmd_drivers/staging/rtl8712/8712u.ko := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL -r  -T ../scripts/module-common.lds --strip-debug -T ../arch/arm64/kernel/module.lds --build-id --strip-debug -o drivers/staging/rtl8712/8712u.ko drivers/staging/rtl8712/8712u.o drivers/staging/rtl8712/8712u.mod.o

@@ -1,0 +1,1 @@
+cmd_lib/zstd/zstd_decompress.o := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o lib/zstd/zstd_decompress.o lib/zstd/huf_decompress.o lib/zstd/decompress.o ; scripts/mod/modpost lib/zstd/zstd_decompress.o

@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_rmnet_bam.o := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/usb/gadget/function/usb_f_rmnet_bam.o drivers/usb/gadget/function/f_rmnet.o drivers/usb/gadget/function/u_ctrl_qti.o ; scripts/mod/modpost drivers/usb/gadget/function/usb_f_rmnet_bam.o

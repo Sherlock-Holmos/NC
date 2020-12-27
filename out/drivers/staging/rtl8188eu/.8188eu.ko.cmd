@@ -1,0 +1,1 @@
+cmd_drivers/staging/rtl8188eu/8188eu.ko := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL -r  -T ../scripts/module-common.lds --strip-debug -T ../arch/arm64/kernel/module.lds --build-id --strip-debug -o drivers/staging/rtl8188eu/8188eu.ko drivers/staging/rtl8188eu/8188eu.o drivers/staging/rtl8188eu/8188eu.mod.o

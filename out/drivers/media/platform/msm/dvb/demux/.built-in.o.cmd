@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/msm/dvb/demux/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/media/platform/msm/dvb/demux/built-in.o drivers/media/platform/msm/dvb/demux/mpq-dmx-hw-plugin.o ; scripts/mod/modpost drivers/media/platform/msm/dvb/demux/built-in.o

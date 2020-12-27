@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/realtek/rtlwifi/rtl8192c/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/net/wireless/realtek/rtlwifi/rtl8192c/built-in.o drivers/net/wireless/realtek/rtlwifi/rtl8192c/rtl8192c-common.o ; scripts/mod/modpost drivers/net/wireless/realtek/rtlwifi/rtl8192c/built-in.o

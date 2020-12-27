@@ -1,0 +1,1 @@
+cmd_drivers/cpufreq/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/cpufreq/built-in.o drivers/cpufreq/cpufreq.o drivers/cpufreq/freq_table.o drivers/cpufreq/cpufreq_governor_attr_set.o drivers/cpufreq/cpufreq_stats.o drivers/cpufreq/cpufreq_performance.o drivers/cpufreq/qcom-cpufreq.o ; scripts/mod/modpost drivers/cpufreq/built-in.o

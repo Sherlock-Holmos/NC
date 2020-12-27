@@ -1,0 +1,1 @@
+cmd_drivers/platform/msm/seemp_core/seemp_core.o := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/platform/msm/seemp_core/seemp_core.o drivers/platform/msm/seemp_core/seemp_logk.o drivers/platform/msm/seemp_core/seemp_ringbuf.o drivers/platform/msm/seemp_core/seemp_event_encoder.o ; scripts/mod/modpost drivers/platform/msm/seemp_core/seemp_core.o

@@ -1,0 +1,1 @@
+cmd_drivers/misc/qcom/qdsp6v2/dts_eagle/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/misc/qcom/qdsp6v2/dts_eagle/built-in.o drivers/misc/qcom/qdsp6v2/dts_eagle/dts_eagle_drv.o ; scripts/mod/modpost drivers/misc/qcom/qdsp6v2/dts_eagle/built-in.o

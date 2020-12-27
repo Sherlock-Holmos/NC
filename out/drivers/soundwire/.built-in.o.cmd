@@ -1,0 +1,1 @@
+cmd_drivers/soundwire/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/soundwire/built-in.o drivers/soundwire/soundwire.o drivers/soundwire/swr-wcd-ctrl.o ; scripts/mod/modpost drivers/soundwire/built-in.o

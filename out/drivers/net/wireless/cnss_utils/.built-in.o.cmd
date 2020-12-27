@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/cnss_utils/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/net/wireless/cnss_utils/built-in.o drivers/net/wireless/cnss_utils/cnss_utils.o ; scripts/mod/modpost drivers/net/wireless/cnss_utils/built-in.o

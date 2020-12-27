@@ -1,0 +1,1 @@
+cmd_drivers/char/hw_random/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/char/hw_random/built-in.o drivers/char/hw_random/rng-core.o drivers/char/hw_random/msm_rng.o ; scripts/mod/modpost drivers/char/hw_random/built-in.o

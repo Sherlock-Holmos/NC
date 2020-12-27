@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/msm_sdw/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o sound/soc/codecs/msm_sdw/built-in.o sound/soc/codecs/msm_sdw/snd-soc-msm-sdw.o ; scripts/mod/modpost sound/soc/codecs/msm_sdw/built-in.o

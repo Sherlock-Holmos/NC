@@ -1,0 +1,1 @@
+cmd_security/keys/encrypted-keys/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o security/keys/encrypted-keys/built-in.o security/keys/encrypted-keys/encrypted-keys.o ; scripts/mod/modpost security/keys/encrypted-keys/built-in.o

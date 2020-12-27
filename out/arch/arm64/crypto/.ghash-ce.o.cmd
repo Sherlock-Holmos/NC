@@ -1,0 +1,1 @@
+cmd_arch/arm64/crypto/ghash-ce.o := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o arch/arm64/crypto/ghash-ce.o arch/arm64/crypto/ghash-ce-glue.o arch/arm64/crypto/ghash-ce-core.o ; scripts/mod/modpost arch/arm64/crypto/ghash-ce.o

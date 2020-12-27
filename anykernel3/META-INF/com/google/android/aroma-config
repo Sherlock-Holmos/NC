@@ -1,0 +1,206 @@
+﻿### LICENSE:
+#
+# Copyright (C) 2011 Ahmad Amarullah ( http://amarullz.com/ )
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or #implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+### FILE INFO:
+#
+# AROMA Installer 2.70 - AROMA Installer Test Script Configuration
+#       (c) 2011-2012 by Ahmad Amarullah
+#           amarullz - xda-developers
+#           http://www.amarullz.com/
+#
+#       Binary Version  : 2.70B
+#       Binary Codename : Flamboyan
+
+# Initializing Rom Information
+ini_set("rom_name",		"AGNi EAS Kernel");
+ini_set("rom_version",	"v11.5_stable");
+ini_set("rom_author",	"psndna88@xda");
+ini_set("rom_device",	"SETDEVICETYPE");
+ini_set("rom_date",		"December, 11, 2020");
+
+# Show Simple Splash
+splash(
+    1000,
+    "agni"
+);
+
+theme("ics");
+loadlang("langs/en.lang");
+fontresload( "0", "ttf/Roboto-Regular.ttf", "12" );
+fontresload( "1", "ttf/Roboto-Regular.ttf", "14" );
+
+viewbox(
+    "<~welcome.title>",
+  
+    "<~welcome.text1> <b>"+
+	  ini_get("rom_name")+
+	"</b> <~common.for> <b>"+ini_get("rom_device")+"</b>.\n\n"+
+	
+      "  <~welcome.version>\t\t: <b><#selectbg_g>"+ini_get("rom_version")+"</#></b>\n\n\n"+
+      "  DEVELOPER \t\t: <b><#selectbg_g>"+ini_get("rom_author")+"</#></b>\n\n\n"+
+      "  <~welcome.updated>\t\t: <b><#selectbg_g>"+ini_get("rom_date")+"</#></b>\n\n\n"+
+
+    "<~welcome.next>",
+  
+    "@welcome"
+);
+
+agreebox(
+  #-- Title
+    "AGNi™ Kernel Note",
+  
+  #-- Subtitle / Description
+    "Read Carefully",
+  
+  #-- Icon:
+    "@license",
+  
+  #-- Text Content 
+    resread("AGNi_info.txt"),
+  
+  #-- Checkbox Text
+    "OK Lets Go...",
+  
+  #-- Unchecked Alert Message
+    "Tick to proceed !"
+);
+
+agreebox(					#AGNIFW
+    "AGNi™ Firmware",		#AGNIFW
+    "Read Carefully",		#AGNIFW
+    "@license",				#AGNIFW
+    resread("AGNi_fw.txt"),	#AGNIFW
+    "I Agree...",			#AGNIFW
+    "Tick to proceed !"		#AGNIFW
+);							#AGNIFW
+
+agreebox(
+  #-- Title
+    "AGNi™ Kernel Note",
+  
+  #-- Subtitle / Description
+    "CPU OC Disclaimer",
+  
+  #-- Icon:
+    "@license",
+  
+  #-- Text Content 
+    resread("AGNi_OC.txt"),
+  
+  #-- Checkbox Text
+    "Ok, I Understand...",
+  
+  #-- Unchecked Alert Message
+    "Tick to proceed !"
+);
+
+agreebox(
+  #-- Title
+    "AGNi™ Android 11 Support Info",
+  #-- Subtitle / Description
+    "Android R support status",
+  #-- Icon:
+    "@license",
+  #-- Text Content 
+    resread("AGNi_A11_status.txt"),
+  #-- Checkbox Text
+    "Remember - Android 11 not fully supported yet...",
+  #-- Unchecked Alert Message
+    "I repeat, Android 11 not tested with this kernel !"
+);
+
+selectbox(																																#SDM660
+    "CPU Frequency Selection","<@center><b>\nWant to Overclock SDM660 CPU ?</b>\n\n</@>","@install","cpuoc.prop",						#SDM660
+    "Yes",						"CPU OC to 2.45GHz (Experimental).", 0,												#-- selected.0 = 1	#SDM660
+    "No, Not my cup of tea !",	"DEFAULT 2.2GHz. You dont want to use CPU OC Performance boost.", 1  				#-- selected.0 = 2	#SDM660
+);																																		#SDM660
+
+selectbox(																																#SDM636
+    "CPU Frequency Selection","<@center><b>\nWant to Overclock SDM636 CPU ?</b>\n\n</@>","@install","cpuoc.prop",						#SDM636
+    "Yes",						"Standard CPU OC to 2.2GHz Good for Gaming.", 0,   									#-- selected.0 = 1	#SDM636
+    "Yes, but MORE..",			"Higher CPU OC to 2.45GHz (Experimental).", 0,										#-- selected.0 = 2	#SDM636
+    "No, Not my cup of tea !",	"DEFAULT 1.8GHz. You dont want to use CPU OC Performance boost.", 1  				#-- selected.0 = 3  #SDM636
+);																																		#SDM636
+
+selectbox(
+    "Camera Libs Support Mode","<@center><b>\nSelect method of camera libs support</b>\n\n</@>","@install","cam.prop",  
+    "Automatic",						"DEFAULT. Auto detect camera libs in rom and flash kernel accordingly", 1,   								#-- selected.0 = 1
+    "Forced NEW Camera Libs Mode", 		"Force Support for new camera libs. - USE IF PROBLEMS WITH AUTOMATIC CAMERA MODE & you sure about it.", 0, 	#-- selected.0 = 2
+    "Forced OLD Camera Libs Mode", 		"Force Support for old camera libs. - USE IF PROBLEMS WITH AUTOMATIC CAMERA MODE & you sure about it.", 0,	#-- selected.0 = 3
+    "Forced MIUI-Q Camera Libs Mode", 	"Force Support for MIUI Q camera. - USE IF PROBLEMS WITH AUTOMATIC CAMERA MODE or Lineage OS", 0			#-- selected.0 = 4
+);
+
+selectbox(
+    "WiFi Driver","<@center><b>\nSelect the WiFi version you want</b>\n\n</@>","@install","wifi.prop",
+    "Automatic",							"DEFAULT: Select Wifi driver based on my installed rom's Android version", 1, 	#-- selected.0 = 1
+    "Android 11 Source based new WiFi",		"New Android 11 based wifi driver (under testing)", 0, 							#-- selected.0 = 2
+    "Q Latest Source based Enhanced WiFi",	"Major revamped. Now gives Improved Speeds than before.", 0, 					#-- selected.0 = 3
+    "Pie Latest Source based WiFi",			"Widely used. Gives good speed.", 0,											#-- selected.0 = 4
+    "Pie OLD Source based WiFi",			"Obsolete, solves rare Hotspot problems with Pie wifi driver", 0				#-- selected.0 = 5
+);
+
+selectbox(
+    "Wired Earphone Sound Enhancement","<@center><b>\nWant AGNi Wired Sound Enhancement ?</b>\n\n</@>","@install","sound.prop",  
+    "YESSSS!",	"DEFAULT. AGNi's Wired Earphone Sound Enhancement doesnt consume extra battery unlike other sound mods like Dolby or V4A", 1,   #-- selected.0 = 1
+    "No...",	"Select if you really don't want or want to use only other Sound mods", 0  #-- selected.0 = 2
+);
+
+selectbox(
+    "AGNi Game Graphics Unlock","<@center><b>\nWant AGNi to unlock High Graphics on games ?</b>\n\n</@>","@install","pubg.prop",  
+    "PUBG Smooth-Extreme Graphics",	"PUBG is part of my soul! Note: Performance may vary and don't report for lag or heating.", 0,				#-- selected.0 = 1
+    "COD Mobile High Graphics",		"Die Hard COD lover! Note: Performance may vary and don't report for lag or heating.", 0,  					#-- selected.0 = 2
+    "No",							"DEFAULT: Also select this if using AGNi game unlock module. (This will also revert changes made above)", 1 #-- selected.0 = 3
+);
+
+selectbox(
+    "EAS Perf HAL","<@center><b>\nEAS compatible PERF HAL configuration</b>\n\n</@>","@install","easperfhal.prop",  
+    "YES",	"Strongly recomended for standard HMP roms like MIUI", 0, 							#-- selected.0 = 1
+    "NO",	"I'm using an EAS rom OR I'm already using EAS perf Magisk module on HMP rom", 1 	#-- selected.0 = 2
+);
+
+selectbox(																											#SDM636
+    "sRGB display colour","<@center><b>\nDo you require sRGB support?</b>\n\n</@>","@install","srgb.prop", 			#SDM636 
+    "YES",	"Use for Official MIUI roms made for your device", 0,								#-- selected.0 = 1	#SDM636
+    "NO",	"I use NON-MIUI/AOSP rom or Ported-MIUI rom", 1 									#-- selected.0 = 2	#SDM636
+);																													#SDM636
+
+selectbox(
+    "Notification LED Mode","<@center><b>\nSelect notification led mode dependent on ROM</b>\n\n</@>","@install","led.prop",
+    "Mode 1",	"Default: use for MIUI roms or some AOSP roms (Change if u face issues)", 1,	#-- selected.0 = 1
+    "Mode 2",	"For most of the NON-MIUI/AOSP roms           (Change if u face issues)", 0 	#-- selected.0 = 2
+);
+setvar("retstatus",
+  install(
+	#-- Title
+      "Installing",
+	
+	#-- Installation Process message
+	  "<b>"+ini_get("rom_name")+"</b> is being installed.\n\n"+
+      "Please wait while installation wizard installs <b>"+ini_get("rom_name")+
+	  "</b>. This may take just a minute...",
+	
+	#-- Installation Icon
+      "@install",
+	
+	#-- Installation Finish Message
+      "The installation wizard has successfully installed <b>"+ini_get("rom_name")+
+	  "</b>. Press Next to continue."
+  )
+);
+
+ini_set("text_next", "Finish");
+ini_set("icon_next", "@finish");
+

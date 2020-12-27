@@ -1,0 +1,1 @@
+cmd_drivers/gpio/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/gpio/built-in.o drivers/gpio/devres.o drivers/gpio/gpiolib.o drivers/gpio/gpiolib-legacy.o drivers/gpio/gpiolib-of.o drivers/gpio/gpiolib-sysfs.o drivers/gpio/gpiolib-acpi.o drivers/gpio/qpnp-pin.o drivers/gpio/gpio-msm-smp2p.o ; scripts/mod/modpost drivers/gpio/built-in.o

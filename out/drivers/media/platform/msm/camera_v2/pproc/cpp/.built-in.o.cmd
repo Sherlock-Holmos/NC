@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/msm/camera_v2/pproc/cpp/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/media/platform/msm/camera_v2/pproc/cpp/built-in.o drivers/media/platform/msm/camera_v2/pproc/cpp/msm_cpp_soc.o drivers/media/platform/msm/camera_v2/pproc/cpp/msm_cpp.o ; scripts/mod/modpost drivers/media/platform/msm/camera_v2/pproc/cpp/built-in.o

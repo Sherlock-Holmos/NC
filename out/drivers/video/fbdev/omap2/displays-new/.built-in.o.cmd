@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/omap2/displays-new/built-in.o :=  rm -f drivers/video/fbdev/omap2/displays-new/built-in.o; /home/sherlock/gcc64/bin/aarch64-linux-gnu-ar rcsD drivers/video/fbdev/omap2/displays-new/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/misc/mic/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/misc/mic/built-in.o drivers/misc/mic/bus/built-in.o ; scripts/mod/modpost drivers/misc/mic/built-in.o

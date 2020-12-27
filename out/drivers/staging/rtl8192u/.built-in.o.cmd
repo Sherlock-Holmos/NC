@@ -1,0 +1,1 @@
+cmd_drivers/staging/rtl8192u/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/staging/rtl8192u/built-in.o drivers/staging/rtl8192u/r8192u_usb.o ; scripts/mod/modpost drivers/staging/rtl8192u/built-in.o

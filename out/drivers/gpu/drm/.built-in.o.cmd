@@ -1,0 +1,1 @@
+cmd_drivers/gpu/drm/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/gpu/drm/built-in.o drivers/gpu/drm/tilcdc/built-in.o drivers/gpu/drm/i2c/built-in.o drivers/gpu/drm/panel/built-in.o drivers/gpu/drm/bridge/built-in.o ; scripts/mod/modpost drivers/gpu/drm/built-in.o

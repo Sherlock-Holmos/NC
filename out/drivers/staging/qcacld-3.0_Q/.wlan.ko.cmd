@@ -1,0 +1,1 @@
+cmd_drivers/staging/qcacld-3.0_Q/wlan.ko := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL -r  -T ../scripts/module-common.lds --strip-debug -T ../arch/arm64/kernel/module.lds --build-id --strip-debug -o drivers/staging/qcacld-3.0_Q/wlan.ko drivers/staging/qcacld-3.0_Q/wlan.o drivers/staging/qcacld-3.0_Q/wlan.mod.o

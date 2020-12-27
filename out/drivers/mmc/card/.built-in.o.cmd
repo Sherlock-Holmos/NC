@@ -1,0 +1,1 @@
+cmd_drivers/mmc/card/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/mmc/card/built-in.o drivers/mmc/card/mmc_block.o ; scripts/mod/modpost drivers/mmc/card/built-in.o

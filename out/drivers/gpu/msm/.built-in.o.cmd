@@ -1,0 +1,1 @@
+cmd_drivers/gpu/msm/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/gpu/msm/built-in.o drivers/gpu/msm/msm_kgsl_core.o drivers/gpu/msm/msm_adreno.o ; scripts/mod/modpost drivers/gpu/msm/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/msm/dvb/adapter/mpq-adapter.o := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/media/platform/msm/dvb/adapter/mpq-adapter.o drivers/media/platform/msm/dvb/adapter/mpq_adapter.o drivers/media/platform/msm/dvb/adapter/mpq_stream_buffer.o ; scripts/mod/modpost drivers/media/platform/msm/dvb/adapter/mpq-adapter.o

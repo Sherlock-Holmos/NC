@@ -1,0 +1,1 @@
+cmd_drivers/media/common/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/media/common/built-in.o drivers/media/common/b2c2/built-in.o drivers/media/common/saa7146/built-in.o drivers/media/common/siano/built-in.o ; scripts/mod/modpost drivers/media/common/built-in.o

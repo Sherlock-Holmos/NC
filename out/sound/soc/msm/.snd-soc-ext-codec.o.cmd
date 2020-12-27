@@ -1,0 +1,1 @@
+cmd_sound/soc/msm/snd-soc-ext-codec.o := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o sound/soc/msm/snd-soc-ext-codec.o sound/soc/msm/sdm660-external.o sound/soc/msm/sdm660-ext-dai-links.o ; scripts/mod/modpost sound/soc/msm/snd-soc-ext-codec.o

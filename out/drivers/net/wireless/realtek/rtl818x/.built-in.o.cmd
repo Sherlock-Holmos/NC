@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/realtek/rtl818x/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/net/wireless/realtek/rtl818x/built-in.o drivers/net/wireless/realtek/rtl818x/rtl8187/built-in.o ; scripts/mod/modpost drivers/net/wireless/realtek/rtl818x/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/msm/camera_v2/msm_buf_mgr/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/media/platform/msm/camera_v2/msm_buf_mgr/built-in.o drivers/media/platform/msm/camera_v2/msm_buf_mgr/msm_generic_buf_mgr.o ; scripts/mod/modpost drivers/media/platform/msm/camera_v2/msm_buf_mgr/built-in.o

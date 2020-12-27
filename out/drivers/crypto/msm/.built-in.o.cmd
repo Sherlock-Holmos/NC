@@ -1,0 +1,1 @@
+cmd_drivers/crypto/msm/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/crypto/msm/built-in.o drivers/crypto/msm/qcedev.o drivers/crypto/msm/qce50.o drivers/crypto/msm/compat_qcedev.o drivers/crypto/msm/qcrypto.o drivers/crypto/msm/ota_crypto.o drivers/crypto/msm/ice.o ; scripts/mod/modpost drivers/crypto/msm/built-in.o

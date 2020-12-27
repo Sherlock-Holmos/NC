@@ -1,0 +1,1 @@
+cmd_drivers/mmc/host/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/mmc/host/built-in.o drivers/mmc/host/sdhci.o drivers/mmc/host/sdhci-pltfm.o drivers/mmc/host/sdhci-msm.o drivers/mmc/host/sdhci-msm-ice.o drivers/mmc/host/cmdq_hci.o ; scripts/mod/modpost drivers/mmc/host/built-in.o

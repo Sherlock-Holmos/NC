@@ -1,0 +1,1 @@
+cmd_arch/arm64/crypto/aes-ce-blk.o := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o arch/arm64/crypto/aes-ce-blk.o arch/arm64/crypto/aes-glue-ce.o arch/arm64/crypto/aes-ce.o ; scripts/mod/modpost arch/arm64/crypto/aes-ce-blk.o

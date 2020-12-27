@@ -1,0 +1,1 @@
+cmd_fs/exfat/exfat.o := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o fs/exfat/exfat.o fs/exfat/super.o fs/exfat/core.o fs/exfat/core_exfat.o fs/exfat/blkdev.o fs/exfat/fatent.o fs/exfat/cache.o fs/exfat/nls.o fs/exfat/misc.o fs/exfat/extent.o fs/exfat/xattr.o ; scripts/mod/modpost fs/exfat/exfat.o

@@ -1,0 +1,3 @@
+kernel/sound/soc/codecs/sdm660_cdc/snd-soc-sdm660-cdc.ko
+kernel/sound/soc/codecs/sdm660_cdc/sdm660-cdc-irq.ko
+kernel/sound/soc/codecs/sdm660_cdc/snd-soc-tas2557.ko

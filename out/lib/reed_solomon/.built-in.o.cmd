@@ -1,0 +1,1 @@
+cmd_lib/reed_solomon/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o lib/reed_solomon/built-in.o lib/reed_solomon/reed_solomon.o ; scripts/mod/modpost lib/reed_solomon/built-in.o

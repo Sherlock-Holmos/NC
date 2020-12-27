@@ -1,0 +1,1 @@
+cmd_crypto/jitterentropy_rng.o := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o crypto/jitterentropy_rng.o crypto/jitterentropy.o crypto/jitterentropy-kcapi.o ; scripts/mod/modpost crypto/jitterentropy_rng.o

@@ -1,0 +1,1 @@
+cmd_drivers/platform/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/platform/built-in.o drivers/platform/msm/built-in.o ; scripts/mod/modpost drivers/platform/built-in.o

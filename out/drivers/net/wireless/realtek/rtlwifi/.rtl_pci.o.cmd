@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/realtek/rtlwifi/rtl_pci.o := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/net/wireless/realtek/rtlwifi/rtl_pci.o drivers/net/wireless/realtek/rtlwifi/pci.o ; scripts/mod/modpost drivers/net/wireless/realtek/rtlwifi/rtl_pci.o

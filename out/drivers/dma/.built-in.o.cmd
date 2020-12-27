@@ -1,0 +1,1 @@
+cmd_drivers/dma/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/dma/built-in.o drivers/dma/dmaengine.o drivers/dma/acpi-dma.o drivers/dma/of-dma.o drivers/dma/qcom-sps-dma.o drivers/dma/xilinx/built-in.o ; scripts/mod/modpost drivers/dma/built-in.o

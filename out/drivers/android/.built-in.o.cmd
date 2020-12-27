@@ -1,0 +1,1 @@
+cmd_drivers/android/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/android/built-in.o drivers/android/binder.o drivers/android/binder_alloc.o drivers/android/simple_lmk.o ; scripts/mod/modpost drivers/android/built-in.o

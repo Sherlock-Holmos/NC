@@ -1,0 +1,1 @@
+cmd_firmware/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o firmware/built-in.o firmware/novatek/nt36672_miui_e7s.bin.gen.o firmware/novatek/hx_nt36672_miui_e7s.bin.gen.o ; scripts/mod/modpost firmware/built-in.o

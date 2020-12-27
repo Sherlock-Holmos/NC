@@ -1,0 +1,1 @@
+cmd_drivers/firmware/qcom/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/firmware/qcom/built-in.o drivers/firmware/qcom/tz_log.o ; scripts/mod/modpost drivers/firmware/qcom/built-in.o

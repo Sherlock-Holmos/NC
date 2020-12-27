@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/realtek/rtlwifi/rtl_usb.o := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/net/wireless/realtek/rtlwifi/rtl_usb.o drivers/net/wireless/realtek/rtlwifi/usb.o ; scripts/mod/modpost drivers/net/wireless/realtek/rtlwifi/rtl_usb.o

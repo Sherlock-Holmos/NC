@@ -1,0 +1,1 @@
+cmd_drivers/acpi/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/acpi/built-in.o drivers/acpi/tables.o drivers/acpi/acpi.o drivers/acpi/acpica/built-in.o drivers/acpi/button.o drivers/acpi/fan.o drivers/acpi/processor.o drivers/acpi/container.o drivers/acpi/thermal.o drivers/acpi/acpi_memhotplug.o ; scripts/mod/modpost drivers/acpi/built-in.o

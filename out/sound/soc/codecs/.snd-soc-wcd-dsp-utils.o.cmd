@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-wcd-dsp-utils.o := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o sound/soc/codecs/snd-soc-wcd-dsp-utils.o sound/soc/codecs/wcd-dsp-utils.o ; scripts/mod/modpost sound/soc/codecs/snd-soc-wcd-dsp-utils.o

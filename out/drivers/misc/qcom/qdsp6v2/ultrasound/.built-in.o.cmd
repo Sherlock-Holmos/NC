@@ -1,0 +1,1 @@
+cmd_drivers/misc/qcom/qdsp6v2/ultrasound/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/misc/qcom/qdsp6v2/ultrasound/built-in.o drivers/misc/qcom/qdsp6v2/ultrasound/usf.o drivers/misc/qcom/qdsp6v2/ultrasound/usfcdev.o drivers/misc/qcom/qdsp6v2/ultrasound/q6usm.o ; scripts/mod/modpost drivers/misc/qcom/qdsp6v2/ultrasound/built-in.o

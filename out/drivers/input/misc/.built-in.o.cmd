@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/input/misc/built-in.o drivers/input/misc/hbtp_input.o drivers/input/misc/hbtp_vm.o drivers/input/misc/qpnp-power-on.o drivers/input/misc/uinput.o drivers/input/misc/vl53L0/built-in.o ; scripts/mod/modpost drivers/input/misc/built-in.o

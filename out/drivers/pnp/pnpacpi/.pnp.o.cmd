@@ -1,0 +1,1 @@
+cmd_drivers/pnp/pnpacpi/pnp.o := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/pnp/pnpacpi/pnp.o drivers/pnp/pnpacpi/core.o drivers/pnp/pnpacpi/rsparser.o ; scripts/mod/modpost drivers/pnp/pnpacpi/pnp.o

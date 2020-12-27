@@ -1,0 +1,1 @@
+cmd_drivers/net/wireless/realtek/rtlwifi/rtl8821ae/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/net/wireless/realtek/rtlwifi/rtl8821ae/built-in.o drivers/net/wireless/realtek/rtlwifi/rtl8821ae/rtl8821ae.o ; scripts/mod/modpost drivers/net/wireless/realtek/rtlwifi/rtl8821ae/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/video/klapse/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/video/klapse/built-in.o drivers/video/klapse/klapse.o ; scripts/mod/modpost drivers/video/klapse/built-in.o

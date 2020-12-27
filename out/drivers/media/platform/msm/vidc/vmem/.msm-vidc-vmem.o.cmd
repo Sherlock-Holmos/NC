@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/msm/vidc/vmem/msm-vidc-vmem.o := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/media/platform/msm/vidc/vmem/msm-vidc-vmem.o drivers/media/platform/msm/vidc/vmem/vmem.o drivers/media/platform/msm/vidc/vmem/vmem_debugfs.o ; scripts/mod/modpost drivers/media/platform/msm/vidc/vmem/msm-vidc-vmem.o

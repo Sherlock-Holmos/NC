@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/msm/vidc/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/media/platform/msm/vidc/built-in.o drivers/media/platform/msm/vidc/msm-vidc.o drivers/media/platform/msm/vidc/governors/built-in.o drivers/media/platform/msm/vidc/vmem/built-in.o ; scripts/mod/modpost drivers/media/platform/msm/vidc/built-in.o

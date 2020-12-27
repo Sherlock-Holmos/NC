@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/function/usb_f_qcrndis.o := /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/usb/gadget/function/usb_f_qcrndis.o drivers/usb/gadget/function/f_qc_rndis.o drivers/usb/gadget/function/rndis.o drivers/usb/gadget/function/u_data_ipa.o ; scripts/mod/modpost drivers/usb/gadget/function/usb_f_qcrndis.o

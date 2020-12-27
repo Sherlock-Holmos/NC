@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/sdm660_cdc/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o sound/soc/codecs/sdm660_cdc/built-in.o sound/soc/codecs/sdm660_cdc/snd-soc-sdm660-cdc.o sound/soc/codecs/sdm660_cdc/sdm660-cdc-irq.o sound/soc/codecs/sdm660_cdc/snd-soc-tas2557.o ; scripts/mod/modpost sound/soc/codecs/sdm660_cdc/built-in.o

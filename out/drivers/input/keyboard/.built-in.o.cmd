@@ -1,0 +1,1 @@
+cmd_drivers/input/keyboard/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/input/keyboard/built-in.o drivers/input/keyboard/atkbd.o drivers/input/keyboard/gpio_keys.o ; scripts/mod/modpost drivers/input/keyboard/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/hsi/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/hsi/built-in.o drivers/hsi/controllers/built-in.o drivers/hsi/clients/built-in.o ; scripts/mod/modpost drivers/hsi/built-in.o

@@ -1,0 +1,1 @@
+cmd_drivers/platform/msm/gsi/built-in.o :=  /home/sherlock/gcc64/bin/aarch64-linux-gnu-ld -EL    -r -o drivers/platform/msm/gsi/built-in.o drivers/platform/msm/gsi/gsi.o drivers/platform/msm/gsi/gsi_dbg.o ; scripts/mod/modpost drivers/platform/msm/gsi/built-in.o
