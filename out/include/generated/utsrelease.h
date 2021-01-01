@@ -1,1 +1,1 @@
-#define UTS_RELEASE "4.4.247_Sherlock-Holmous-v11.5_test"
+#define UTS_RELEASE "4.4.247_AGNi_NewCam-v11.5_stable-EAS-whyred"

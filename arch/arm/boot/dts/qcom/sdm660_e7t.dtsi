@@ -161,7 +161,7 @@
 			device_type = "cpu";
 			compatible = "arm,kryo";
 			reg = <0x0 0x100>;
-			clock-frequency = <2457600000>;
+			clock-frequency = <2496000000>;
 			enable-method = "psci";
 			qcom,limits-info = <&mitigation_profile1>;
 			qcom,lmh-dcvs = <&lmh_dcvs1>;
@@ -191,7 +191,7 @@
 			device_type = "cpu";
 			compatible = "arm,kryo";
 			reg = <0x0 0x101>;
-			clock-frequency = <2457600000>;
+			clock-frequency = <2496000000>;
 			enable-method = "psci";
 			qcom,limits-info = <&mitigation_profile2>;
 			qcom,lmh-dcvs = <&lmh_dcvs1>;
@@ -217,7 +217,7 @@
 			device_type = "cpu";
 			compatible = "arm,kryo";
 			reg = <0x0 0x102>;
-			clock-frequency = <2457600000>;
+			clock-frequency = <2496000000>;
 			enable-method = "psci";
 			qcom,limits-info = <&mitigation_profile3>;
 			qcom,lmh-dcvs = <&lmh_dcvs1>;
@@ -243,7 +243,7 @@
 			device_type = "cpu";
 			compatible = "arm,kryo";
 			reg = <0x0 0x103>;
-			clock-frequency = <2457600000>;
+			clock-frequency = <2496000000>;
 			enable-method = "psci";
 			qcom,limits-info = <&mitigation_profile4>;
 			qcom,lmh-dcvs = <&lmh_dcvs1>;
@@ -330,7 +330,7 @@
 				1747200 2576
 				1804800 2661
 				2208000 6688
-				2457600 7444
+				2496000 7444
 			>;
 			idle-cost-data = <
 				100 80 60 40
@@ -359,7 +359,7 @@
 				1747200 272
 				1804800 281
 				2208000 585
-				2457600 651
+				2496000 651
 			>;
 			idle-cost-data = <
 				4 3 2 1
@@ -1348,7 +1348,7 @@
 			< 1401600 3879 >,
 			< 1804800 5931 >,
 			< 2208000 6881 >,
-			< 2457600 6881 >;
+			< 2496000 6881 >;
 	};
 
 	devfreq_cpufreq: devfreq-cpufreq {
@@ -1363,7 +1363,7 @@
 				< 1401600 2086 >,
 				< 1747200 2929 >,
 				< 1804800 3879 >,
-				< 2208000 6881 >,
+				< 2496000 6881 >,
 				< 2457600 6881 >;
 		};
 	};
@@ -1441,7 +1441,7 @@
 			<  1747200000 0x0404005b 0x09480048 0x2 4 >,
 			<  1804800000 0x0404005e 0x094b004b 0x2 5 >,
 			<  2208000000 0x04040073 0x0b5c005c 0x3 6 >,
-			<  2457600000 0x04040080 0x0c660066 0x3 7 >;
+			<  2496000000 0x04010082 0x0a680068 0x3 29 >;
 
 		qcom,perfcl-speedbin1-v0 =
 			<   300000000 0x0004000f 0x01200020 0x1 1 >,
@@ -1450,7 +1450,7 @@
 			<  1747200000 0x0404005b 0x09480048 0x2 4 >,
 			<  1804800000 0x0404005e 0x094b004b 0x2 5 >,
 			<  2208000000 0x04040073 0x0b5c005c 0x3 6 >,
-			<  2457600000 0x04040080 0x0c660066 0x3 7 >;
+			<  2496000000 0x04010082 0x0a680068 0x3 29 >;
 
 		qcom,perfcl-speedbin3-v0 =
 			<   300000000 0x0004000f 0x01200020 0x1 1 >,
@@ -1459,7 +1459,7 @@
 			<  1747200000 0x0404005b 0x09480048 0x2 4 >,
 			<  1804800000 0x0404005e 0x094b004b 0x2 5 >,
 			<  2208000000 0x04040073 0x0b5c005c 0x3 6 >,
-			<  2457600000 0x04040080 0x0c660066 0x3 7 >;
+			<  2496000000 0x04010082 0x0a680068 0x3 29 >;
 
 		qcom,perfcl-speedbin4-v0 =
 			<   300000000 0x0004000f 0x01200020 0x1 1 >,
@@ -1468,7 +1468,7 @@
 			<  1747200000 0x0404005b 0x09480048 0x2 4 >,
 			<  1804800000 0x0404005e 0x094b004b 0x2 5 >,
 			<  2208000000 0x04040073 0x0b5c005c 0x3 6 >,
-			<  2457600000 0x04040080 0x0c660066 0x3 7 >;
+			<  2496000000 0x04010082 0x0a680068 0x3 29 >;
 
 		qcom,up-timer = <1000 1000>;
 		qcom,down-timer = <1000 1000>;
@@ -1534,7 +1534,7 @@
 			< 1958400 >,
 			< 2150400 >,
 			< 2208000 >,
-			< 2457600 >;
+			< 2496000 >;
 	};
 
 	sdhc_1: sdhci@c0c4000 {
